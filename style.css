@@ -1,0 +1,114 @@
+.filter {
+
+}
+
+.navbar-translate .navbar-brand:hover {
+background-color: gold;
+border-radius: 30px;
+
+}
+
+.navcolor {
+	background-color: maroon;
+
+}
+
+.navbar .navbar-toggler {
+	height: 84px;
+	min-width: 84px;
+}
+
+.nav-item:hover {
+	background-color: gold;
+	border-radius: 25px;
+}
+
+.image-container {
+	width: 
+}
+
+.btn-round {
+	background-color: maroon;
+	font-family: 'Oxygen', sans-serif;
+
+}
+
+.card-footer .btn-round:hover {
+	background-color: gold;
+}
+
+.who_we_are {
+	background-color: gold;
+}
+
+.who_we_are .row .col-md-8 .title {
+	
+
+}
+
+
+.section-story-overview{
+	background-color: maroon;
+}
+
+.section-story-overview .row .col-md-6 .image-container{
+	width: 645px;
+	height: 335px;
+}
+
+.section-story-overview .row .col-md-6 p {
+	color: white;
+}
+
+.section-story-overview .row .col-md-5 p {
+	color: white;
+}
+
+.section-story-overview .row .col-md-5 h3 {
+	color: white;
+}
+
+.section-team .team .team-player {
+	padding: 50px;
+}
+
+.section-team .team .team-player img {
+	max-width: 100px;
+	height: 150px;
+	width: 100px;
+
+}
+
+.section-team .team .team-player .btn-icon{
+	background-color: maroon;
+}
+
+.section-team .team .team-player .btn-icon:hover{
+	background-color: gold;
+}
+
+.sectiona {
+	background-color: maroon;
+}
+
+.section .title {
+
+}
+
+
+.footers {
+	background-color: gold;
+
+}
+
+
+
+
+
+@media screen and (max-width: 991px) {
+	.sidebar-collapse .navbar-collapse:before {
+		background-image: linear-gradient(#771919,#000 80%);
+		opacity: .76;
+
+	}
+}
