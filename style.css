@@ -18,6 +18,20 @@ border-radius: 30px;
 	min-width: 84px;
 }
 
+.message_yall {
+	text-align: center;
+	font-size: 20px;
+	color: grey;
+}
+
+.category {
+	color: black;
+}
+
+[data-background-color]:not([data-background-color=gray]), [data-background-color]:not([data-background-color=gray]) .social-description h2, [data-background-color]:not([data-background-color=gray]) .title, [data-background-color]:not([data-background-color=gray]) p, [data-background-color]:not([data-background-color=gray]) p.blockquote, [data-background-color]:not([data-background-color=gray]) p.blockquote small {
+	background-color: maroon;
+}
+
 .nav-item:hover {
 	background-color: gold;
 	border-radius: 25px;
@@ -33,6 +47,10 @@ border-radius: 30px;
 
 }
 
+.page_header {
+	text-align: center;
+}
+
 .poster_manofiron {
 	text-align: center;
 	margin-bottom: 90px;
@@ -42,6 +60,14 @@ border-radius: 30px;
 .content-center .form .card_header .card-title {
 	font-family: 'Gugi', cursive;
 
+}
+
+.content-center .card-footer .btn{
+	background-color: maroon;
+}
+
+.content-center .card-footer .btn:hover{
+	background-color: gold;
 }
 
 .form .card_header {
@@ -62,26 +88,58 @@ border-radius: 30px;
 
 }
 
-.form .card-footer .btn-round:hover {
+.btn-neutral.active:hover, .btn-neutral:active:hover, .btn-neutral:focus, .btn-neutral:hover, .btn-neutral:not(:disabled):not(.disabled).active, .btn-neutral:not(:disabled):not(.disabled).active:focus, .btn-neutral:not(:disabled):not(.disabled):active, .btn-neutral:not(:disabled):not(.disabled):active:focus, .show>.btn-neutral.dropdown-toggle, .show>.btn-neutral.dropdown-toggle:focus, .show>.btn-neutral.dropdown-toggle:hover {
 	background-color: gold;
+	color: white;
 }
 
-.who_we_are {
+.spacing {
 	background-color: white;
 }
 
-.who_we_are .col-md-8 .title {
+.spacing .montage_ {
 	font-family: 'Gugi', cursive;
+	font-size: 34px;
+	text-align: center;
+}
+
+.who_we_are {
+	background-image: url(http://wallpapershdnow.com/images/movies/superhero/iron-man/iron-man-wallpaper-5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+.who_we_are .container .title {
+	color: white;
+}
+
+.who_we_are .container .category {
+	color: white;
+
 }
 
 .who_we_are .col-md-8 .description {
-	font-family: 'Gugi', cursive;
-	color: grey;
+	color: white;
 	text-align: center;
 }
 
 .who_we_are .row .col-md-8 .title {
 	
+
+}
+
+.trilogy_ironman {
+	text-align: center;
+	font-family: 'Gugi', cursive;
+	font-size: 34px;
+}
+
+.gallery_ironman {
+	text-align: center;
+	font-family: 'Gugi', cursive;
+	font-size: 34px;
 
 }
 
@@ -131,7 +189,7 @@ border-radius: 30px;
 }
 
 .section-story-overview .row .col-md-6 .image-beneath {
-	margin-top: 380px;
+	margin-top: 280px;
 }
 
 .section-story-overview .row .col-md-5 p {
@@ -172,8 +230,9 @@ border-radius: 30px;
 }
 
 
-.footers {
+.footer{
 	background-color: gold;
+
 
 }
 
@@ -219,15 +278,14 @@ border-radius: 30px;
 	}*/
 
 	.ironman_carousel .container {
-		width: 347px;
-		height: 646px;
 		text-align: center;
+
 	}
 
-	.ironman_carousel .container .carousel{
-		padding-bottom: 80px;
-		width: 89px;
-		height: 60px;
+	.ironman_carousel .container .row .carousel{
+		padding-bottom: 50px;
+		padding-top: 12px;
+
 	}
 
 
