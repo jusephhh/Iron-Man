@@ -178,14 +178,14 @@ border-radius: 30px;
 .section-story-overview .row .col-md-6 .image-left{
 	width: 645px;
 	height: 335px;
-	margin-left: 2%;
+	margin-left: 73px;
 	margin-bottom: 330px;
 }
 
 .section-story-overview .row .col-md-6 .image-beneath {
 	width: 450px;
 	height: 500px;
-	margin-left: 100px;
+	margin-left: 150px;
 
 }
 
@@ -330,17 +330,18 @@ border-radius: 30px;
 		margin-bottom: 50px;
 	}
 
-/*	.section-story-overview .row .col-md-6 .image-left {
+	.section-story-overview .row .col-md-6 .image-left {
 		width: 450px;
 		height: 500px;
+		margin-left: 95px;
 
 
-	}*/
+	}
 
 	.section-story-overview .row .col-md-6 .image-beneath {
 		width: 450px;
 		height: 500px;
-		margin-left: 52px;
+		margin-left: 90px;
 		margin-top: 500px;
 
 	}
